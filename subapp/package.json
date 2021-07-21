@@ -1,0 +1,14 @@
+{
+    "name": "subapp-default",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.html",
+    "scripts": {
+        "start": "http-server . --cors -p 8081"
+    },
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "http-server": "^0.12.1"
+    }
+}

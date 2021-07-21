@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>QianKun Report</title>
+    </head>
+    <body>
+        <div id="subapp-container"></div>
+
+        <script>
+            function push(subapp) {
+                history.pushState(null, subapp, subapp);
+            }
+        </script>
+    </body>
+</html>
